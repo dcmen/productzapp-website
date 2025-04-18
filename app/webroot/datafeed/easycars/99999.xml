@@ -1,0 +1,68 @@
+<StockItems>
+	<StockItem>
+		<StockNumber>1</StockNumber>
+		<Make>HOLDEN</Make>
+		<Model>COMMODORE</Model>
+		<ModelYear>2009</ModelYear>
+		<ModelVariant>OMEGA</ModelVariant>
+		<ModelSeries>VE MY09.5</ModelSeries>
+		<Body>UTILITY</Body>
+		<SellingPrice>15000</SellingPrice>
+		<WholesalePrice>13000</WholesalePrice>
+		<Odometer>23232</Odometer>
+		<RegistrationNumber>ABC123</RegistrationNumber>
+		<RegistrationExpiry>05-08-2015</RegistrationExpiry>
+		<Colour>blue</Colour>
+		<Trim>red</Trim>
+		<NewOrUsed>Used</NewOrUsed>
+		<VehicleType>Car</VehicleType>
+		<YardLocation>0</YardLocation>
+		<Transmission>MANUAL</Transmission>
+		<Gears>6</Gears>
+		<Cylinders>V6</Cylinders>
+		<FuelType>Unleaded</FuelType>
+		<EngineType>MULTI POINT F/INJ</EngineType>
+		<EngineCapacity>3564</EngineCapacity>
+		<EngineSize>3.6L</EngineSize>
+		<DriveTrain>fwd</DriveTrain>
+		<VINChassisNumber>VIN00000001234567</VINChassisNumber>
+		<Doors>4</Doors>	
+		<StandardExtras>Dual Airbag Package,Anti-Lock Braking,Airconditioning</StandardExtras>
+		<VideoURL>www.youtube.com</VideoURL>
+		<Description>description text here  </Description>
+		<NVIC>IXY90A</NVIC>
+	</StockItem>
+	<StockItem>
+		<StockNumber>2</StockNumber>
+		<Make>FORD</Make>
+		<Model>FALCON</Model>
+		<ModelYear>2012</ModelYear>
+		<ModelVariant>XR6T</ModelVariant>
+		<ModelSeries>FG UPGRADE</ModelSeries>
+		<Body>UTILITY</Body>
+		<SellingPrice>20000</SellingPrice>
+		<WholesalePrice>17000</WholesalePrice>
+		<Odometer>45000</Odometer>
+		<RegistrationNumber>ABC456</RegistrationNumber>
+		<RegistrationExpiry>05-09-2015</RegistrationExpiry>
+		<Colour>Arctic Blue</Colour>
+		<Trim>Red Ranger</Trim>
+		<NewOrUsed>Used</NewOrUsed>
+		<VehicleType>Car</VehicleType>
+		<YardLocation>0</YardLocation>
+		<Transmission>AUTOMATIC</Transmission>
+		<Gears>6</Gears>
+		<Cylinders>V6</Cylinders>
+		<FuelType>Unleaded</FuelType>
+		<EngineType>TURBO MPFI</EngineType>
+		<EngineCapacity>3984</EngineCapacity>
+		<EngineSize>4.0L</EngineSize>
+		<DriveTrain>RWD</DriveTrain>
+		<VINChassisNumber>VIN00000009999999</VINChassisNumber>
+		<Doors>4</Doors>	
+		<StandardExtras>Dual Airbag Package,Anti-Lock Braking,Airconditioning</StandardExtras>
+		<VideoURL>www.youtube.com</VideoURL>
+		<Description>description text here  </Description>
+		<NVIC>KIF12A</NVIC>
+	</StockItem>
+</StockItems>

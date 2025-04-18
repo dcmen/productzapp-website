@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8" />
+    <title>Help</title>
+    <link href='http://fonts.googleapis.com/css?family=Roboto:700,500,400,300&subset=vietnamese' rel='stylesheet' type='text/css'>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    
+    <script type="text/javascript" src="js/jquery-2.1.4.min.js" charset="utf-8"></script>
+    <script type="text/javascript" src="js/jquery-ui.js" charset="utf-8"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js" charset="utf-8"></script>
+    <script type="text/javascript" src="js/bootstrapValidator.min.js" charset="utf-8"></script>
+</head>
+<style>
+    h3.title{
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .wrapper{
+        padding: 10px;
+    }
+    @media (min-width:320px) {
+        img {
+            height: 105px;
+            width: 250px;
+        }
+        .container{
+            padding: 0;
+            text-align: justify;
+        }
+    } 
+    @media (min-width:1024px) {
+        img {
+            height: 183px;
+            width: 440px;
+        }
+        .container{
+            padding: 0 15%;
+            text-align: justify;
+        }
+    }
+</style>
+
+<body lang=EN-US link=blue vlink=purple style='tab-interval:.5in'>
+    <div class="container">
+        <h3 class="title">
+            Contact
+        </h3>
+        <p align="center">
+            <img class="img-responsive" width="440" height="183" src="images/carzapp.jpg"/>
+        </p>
+        <div class="wrapper">
+        <form id="Contact" action="" method="post" class="form-horizontal">
+            
+                <div class="col-xs-12 col_left_login">   
+                     <div class="form-group">
+                        <label>Name</label>
+                        <input type="text" name="name" class="form-control" >
+                     </div>
+                     <div class="form-group">
+                        <label>Email</label>
+                        <input type="text" name="email" class="form-control">
+                     </div>
+                    <div class="form-group">
+                        <label>Content</label>
+                        <textarea name="content" class="form-control"></textarea>
+                     </div>
+                     <div class="form-group">
+                        <div class="col-xs-12" style="text-align: center">
+                            <button type="submit"  class="btn btn-info">
+                                Send
+                            </button>
+                        </div>     
+                    </div>
+                </div> 
+                
+        </form> 
+        </div>
+    </div>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#Contact').bootstrapValidator({
+                message: 'This value is not valid',
+                fields: {
+                    email: {
+                        validators: {
+                            notEmpty: {
+                                message: 'The email address is required and can\'t be empty'
+                            },
+                            emailAddress: {
+                                message: 'The input is not a valid email address'
+                            }
+                        }
+                    },
+                    name: {
+                        validators: {
+                            notEmpty: {
+                                message: 'The name is required and can\'t be empty'
+                            }
+                        }
+                    },
+                    content: {
+                        validators: {
+                            notEmpty: {
+                                message: 'The content is required and can\'t be empty'
+                            }
+                        }
+                    }
+                }
+        });
+    });
+    </script>
+</body>
+
+</html>

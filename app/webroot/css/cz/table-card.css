@@ -1,0 +1,62 @@
+@media screen and (max-width: 640px) {
+    /*Table card @Phuc*/
+    table.table-card {
+        width: 100%;
+    }
+    table.table-card thead {
+        display: none;
+    }
+    table.table-card tr {
+        margin-bottom: 10px;
+        display: block;
+        border: 1px solid #ddd;
+        border-bottom: 2px solid #ddd;
+        padding: 5px;
+    }
+    table.table-card td {
+        width: 100% !important;
+        display: block !important;
+        text-align: right !important;
+        white-space: initial !important;
+        border: 0px !important;
+        border-bottom: 1px dotted #ccc !important;
+        font-size: 13px;
+        word-break: break-all;
+    }
+    table.table-card td[data-card-display="left"] {
+        text-align: left !important;
+    }
+    table.table-card td[data-card-display="center"] {
+        text-align: center !important;
+    }
+    table.table-card td[data-card-display='hide'] {
+        display: none !important;
+    }
+    table.table-card td:last-child {
+        border-bottom: 0 !important;
+    }
+    table.table-card td:before {
+        content: attr(data-card-title);
+        float: left;
+        font-weight: bold;
+        margin-right: 10px;
+    }
+    table.table-card td[data-card-no-title="true"]::before {
+        content: '';
+    }
+    /*END Table card*/
+    
+    table > tbody > tr {
+        background-color: #fff !important;
+    }
+    .table-responsive {
+        border: 0px !important;
+        padding-top: 40px;
+    }
+    table.table-bordered {
+        border: 0;
+    }
+    table.table.table-card > tbody > tr > td {
+        line-height: 15px;
+    }
+}

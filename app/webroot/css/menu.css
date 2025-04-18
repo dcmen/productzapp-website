@@ -1,0 +1,292 @@
+#cssmenu,
+#cssmenu ul,
+#cssmenu ul li,
+#cssmenu ul li a,
+#cssmenu #menu-button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  line-height: 1;
+  display: block;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/*#cssmenu:after,
+#cssmenu > ul:after {
+  display: block;
+  clear: both;
+  line-height: 0;
+  height: 0;
+}*/
+#cssmenu .img{
+    height: 23px;
+    text-align: center;
+}
+#cssmenu .fa.fa_select {
+    color: #fe6309;
+}
+#navbar_menu .fa{
+    font-size: 17px;
+}
+#cssmenu .fa {
+    font-size: 20px;
+}
+#cssmenu #menu-button {
+  display: none;
+}
+#cssmenu {
+    background: #1b3661 none repeat scroll 0 0;
+    float: left;
+    margin-top: 10px;
+    position: relative;
+}
+#menu-line {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 3px;
+  background: #009ae1;
+  -webkit-transition: all 0.25s ease-out;
+  -moz-transition: all 0.25s ease-out;
+  -ms-transition: all 0.25s ease-out;
+  -o-transition: all 0.25s ease-out;
+  transition: all 0.25s ease-out;
+}
+#cssmenu > ul > li {
+   border-width: 0 1px;
+    display: block;
+    float: left;
+    margin: 0 2px 0 3px;
+    position: relative;
+}
+
+#cssmenu.align-center > ul {
+  font-size: 0;
+  text-align: center;
+}
+#cssmenu.align-center > ul > li {
+  display: inline-block;
+  float: none;
+}
+#cssmenu.align-center ul ul {
+  text-align: left;
+}
+#cssmenu.align-right > ul > li {
+  float: right;
+}
+#cssmenu.align-right ul ul {
+  text-align: right;
+}
+#cssmenu > ul > li > a {
+  padding: 5px 4px 15px;
+  font-size: 13px;
+  text-decoration: none;
+  color: #fff;
+  -webkit-transition: color .2s ease;
+  -moz-transition: color .2s ease;
+  -ms-transition: color .2s ease;
+  -o-transition: color .2s ease;
+  transition: color .2s ease;
+}
+
+.nav-list > li.hover > .arrow::before {
+    border-bottom-color: #fe6309;
+    border-left-color: transparent !important;
+    border-right-color: transparent !important;
+    border-top-color: transparent;
+    border-width: 0 8px 8px !important;
+    left: -37% !important;
+    right: auto !important;
+    top: -2px !important;
+}
+.nav-list li > .arrow::before, .nav-list li > .arrow::after {
+    border: 10px solid transparent;
+    bottom: auto;
+    content: "";
+    display: block;
+    height: 0;
+    left: -20px;
+    position: absolute;
+    right: auto;
+    top: 0;
+    width: 0;
+}
+.nav-list > li.active > .arrow {
+    display: block;
+}
+.nav-list > li > .arrow {
+    bottom: 6px;
+    left: 39%;
+    position: absolute;
+    right: auto;
+    top: auto;
+}
+#cssmenu > ul > li:hover > a,
+#cssmenu > ul > li.active > a {
+  color: #fe6309;
+}
+#cssmenu > ul > li.has-sub > a {
+  padding-right: 0;
+}
+#cssmenu > ul > li.has-sub > a::after {
+  position: absolute;
+  top: 21px;
+  right: 10px;
+  width: 4px;
+  height: 4px;
+  border-bottom: 1px solid #000000;
+  border-right: 1px solid #000000;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -webkit-transition: border-color 0.2s ease;
+  -moz-transition: border-color 0.2s ease;
+  -ms-transition: border-color 0.2s ease;
+  -o-transition: border-color 0.2s ease;
+  transition: border-color 0.2s ease;
+}
+#cssmenu > ul > li.has-sub:hover > a::after {
+  border-color: #009ae1;
+}
+#cssmenu ul ul {
+  position: absolute;
+  left: -9999px;
+}
+#cssmenu li:hover > ul {
+  left: auto;
+}
+#cssmenu.align-right li:hover > ul {
+  right: 0;
+}
+#cssmenu ul ul ul {
+  margin-left: 100%;
+  top: 0;
+}
+#cssmenu.align-right ul ul ul {
+  margin-left: 0;
+  margin-right: 100%;
+}
+#cssmenu ul ul li {
+  height: 0;
+  -webkit-transition: height .2s ease;
+  -moz-transition: height .2s ease;
+  -ms-transition: height .2s ease;
+  -o-transition: height .2s ease;
+  transition: height .2s ease;
+}
+#cssmenu ul li:hover > ul > li {
+  height: 32px;
+}
+#cssmenu ul ul li a {
+  padding: 10px 20px;
+  width: 160px;
+  font-size: 12px;
+  background: #fb6b17;
+  text-decoration: none;
+  color: #fff;
+  -webkit-transition: color .2s ease;
+  -moz-transition: color .2s ease;
+  -ms-transition: color .2s ease;
+  -o-transition: color .2s ease;
+  transition: color .2s ease;
+}
+#cssmenu ul ul li:hover > a,
+#cssmenu ul ul li a:hover {
+  color: #000;
+}
+#cssmenu ul ul li.has-sub > a::after {
+  position: absolute;
+  top: 13px;
+  right: 10px;
+  width: 4px;
+  height: 4px;
+  border-bottom: 1px solid #dddddd;
+  border-right: 1px solid #dddddd;
+  content: "";
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-transition: border-color 0.2s ease;
+  -moz-transition: border-color 0.2s ease;
+  -ms-transition: border-color 0.2s ease;
+  -o-transition: border-color 0.2s ease;
+  transition: border-color 0.2s ease;
+}
+#cssmenu.align-right ul ul li.has-sub > a::after {
+  right: auto;
+  left: 10px;
+  border-bottom: 0;
+  border-right: 0;
+  border-top: 1px solid #dddddd;
+  border-left: 1px solid #dddddd;
+}
+#cssmenu ul ul li.has-sub:hover > a::after {
+  border-color: #ffffff;
+}
+
+@media (min-width: 1280px) and (max-width: 3000px) {
+   .collapse {
+       display: none !important;
+   }
+}
+
+#navbar_notifi .navbar-nav > li > ul > li > a,
+#navbar_menu .navbar-nav > li > ul > li > a,
+#navbar_menu .navbar-nav > li > a,
+#navbar_notifi .navbar-nav > li > a{
+    color: #fff;
+}
+#navbar_menu .navbar-nav > li > ul > li > a,
+#navbar_menu .navbar-nav > li.open > a,
+#navbar_menu .navbar-nav > li > a:hover{
+    color: #fe6309;
+}
+#navbar_menu .img_flicka{
+    margin: 0 5px 0 0;
+}
+#navbar_menu .img_trans{
+    margin-left: 0;
+}
+#navbar_menu .nav-list > li a > .arrow {
+    display: block;
+    font-size: 18px;
+    height: 14px;
+    line-height: 14px;
+    padding: 0;
+    position: absolute;
+    right: 10px;
+    text-align: center;
+    text-shadow: none;
+    top: 12px;
+    width: 14px !important;
+}
+#menu_home .navbar-toggle{
+    color: #fff;
+    padding: 4px 5px 0;
+    border: none;
+    margin-right: 2px;
+}
+#menu_home .material-icons{
+    margin-top: 1px;
+}
+#navbar_notifi a > span{
+    background: red none repeat scroll 0 0;
+    border-radius: 100%;
+    color: #fff;
+    font-size: 11px;
+    padding: 1px 5px;
+}
+#navbar_notifi .fa{
+    margin-right: 5px;
+}
+#menu_home button > .fa{
+    font-size: 20px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,665 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="txt_alphalbet">#ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="app_id">1598019467132618</string>
+    <string name="app_name">CarZapp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="txt_welcome">Welcome</string>
+    <string name="txt_name">Name</string>
+    <string name="txt_email_address">Email Address</string>
+    <string name="txt_password">Password</string>
+    <string name="txt_remember_me">Remember me</string>
+    <string name="txt_login">Login</string>
+    <string name="txt_register">Register</string>
+    <string name="txt_forgot_password">Forgot password ?</string>
+    <string name="txt_twitter">Twitter</string>
+    <string name="txt_facebook">Facebook</string>
+    <string name="txt_loading">Loading&#8230;</string>
+    <string name="txt_deleting">Deleting&#8230;</string>
+    <string name="txt_btn_show">Show %1$s Cars</string>
+    <string name="toast_invalid">Invalid email address</string>
+    <string name="txt_register_tab">Join Now</string>
+    <string name="txt_login_tab">Sign In</string>
+    <string name="txt_logout_tab">Sign Out</string>
+    <string name="txt_sign_up">Sign Up</string>
+    <string name="txt_phone">Phone</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="txt_company">Company Name</string>
+    <string name="fail">Failed! Please check your network connection and try again</string>
+    <string name="success">Success! Please check your email for a link to reset your password</string>
+    <string name="txt_dealer_number">Dealer Number</string>
+    <string name="txt_license_number">Dealer License Number</string>
+    <string name="txt_easy_car_number">Easy Car Number</string>
+    <string name="txt_dealer_solution_number">Dealer Solution Number</string>
+    <string name="txt_confirm_password">Confirm Password</string>
+    <string name="txt_or">or</string>
+    <string name="txt_input_name">Input name</string>
+    <string name="txt_please_input_data">Please input data</string>
+    <string name="txt_invalid_email_address">Invalid email address.</string>
+    <string name="txt_input_phone">Input phone</string>
+    <string name="txt_input_company">Input company name</string>
+    <string name="txt_input_dealer">Input dealer number</string>
+    <string name="txt_input_license_number">Input license number</string>
+    <string name="txt_input_easy_car_number">Input easy car number</string>
+    <string name="txt_input_dealer_solution">Input dealer solution number</string>
+    <string name="txt_input_password">Input password</string>
+    <string name="txt_wrong_password">Password did not match. Please try again!</string>
+    <string name="txt_choose_avatar">Choose avatar</string>
+    <string name="txt_change_password">Change Password</string>
+    <string name="txt_registing">Registering...</string>
+    <string name="txt_registered_successfully">Registered successfully</string>
+    <string name="txt_password_short">Password is too short (minimum is %1$s characters)</string>
+    <string name="txt_error">Error!</string>
+    <string name="txt_logining">Logining...</string>
+    <string name="txt_login_success">Logged in successfully</string>
+    <string name="txt_please_connect_to_network">Please connect to a network!</string>
+    <string name="txt_information">Dealer Information</string>
+    <string name="txt_more_information">More Information</string>
+    <string name="txt_personal_information">Personal Information</string>
+    <string name="txt_company_information">Company Information</string>
+    <string name="txt_note">Notes</string>
+    <string name="txt_detail">Details</string>
+    <string name="txt_comment">Comments</string>
+    <string name="txt_car_sale">Car for sale - Detail</string>
+    <string name="txt_call">Call</string>
+    <string name="txt_email">Email</string>
+    <string name="txt_sms">SMS</string>
+    <string name="txt_app_chat">Chat</string>
+    <string name="txt_details">Details</string>
+    <string name="txt_car_detail">Car Details</string>
+    <string name="txt_car_detail_transfer">Car Details-Transfer</string>
+    <string name="txt_comments">Comments</string>
+    <string name="txt_reconnect_network">Please check your internet connection</string>
+    <string name="txt_choose_photo">Choose photo</string>
+    <string name="txt_limit_photo">You can only upload 10 photos</string>
+    <string name="txt_limit_video">You can only upload one video</string>
+    <string name="txt_are_you_suare_delete">Are you sure you want to delete this item?</string>
+    <string name="txt_adding">Adding...</string>
+    <string name="txt_do_you_assign">Are you sure you want to transfer your car for</string>
+    <string name="txt_delete_car">Are you sure you want to delete this transaction?</string>
+    <string name="txt_delete">Delete</string>
+    <string name="txt_about_version">Version 1.0.20</string>
+    <string name="txt_about_carzapp_pty_ltd">\@ 2015 CarZapp Pty Ltd</string>
+    <string name="txt_about_email">info@carzapp.com.au</string>
+    <string name="wait">Please wait...</string>
+
+    <string-array name="arr_capture">
+        <item>Take a photo</item>
+        <item>Choose from Gallery</item>
+    </string-array>
+    <string-array name="arr_share">
+        <item>SMS Customer</item>
+        <item>Email Customer</item>
+    </string-array>
+
+    <!-- Menu -->
+    <string name="menu_group_search">SEARCH FOR CARS</string>
+    <string name="menu_item">Home</string>
+    <string name="menu_item_transaction">My Transactions</string>
+    <string name="menu_item_customer">My Customers</string>
+    <string name="menu_item0">Flicka</string>
+    <string name="menu_item1">Car For Sale</string>
+    <string name="menu_item2">Set &amp; Forget</string>
+    <string name="menu_item3">Followed Cars</string>
+    <string name="menu_group_my_account">MY ACCOUNT</string>
+    <string name="menu_item14">Other Notification</string>
+    <string name="menu_item4">My Stock</string>
+    <string name="menu_item5">Zapp Chat</string>
+    <string name="menu_item6">My Network</string>
+    <string name="menu_item12">Tender</string>
+    <string name="menu_item13">Auction</string>
+    <string name="menu_item6_add">+My Network</string>
+    <string name="menu_item7">Invite a Dealer</string>
+    <string name="menu_item8">Settings</string>
+    <string name="menu_item9">About</string>
+    <string name="menu_item10">Help</string>
+    <string name="menu_group_other">OTHER</string>
+    <string name="menu_item11">Valuations</string>
+    <string name="txt_cars_sold">CARS FOR SALE</string>
+    <string name="txt_cars_followed">CARS FOLLOWED</string>
+    <string name="txt_cars_forget">SET &amp; FORGET</string>
+    <string name="txt_unread_chat">ZAPP CHAT</string>
+    <string name="txt_dealer_network">MY NETWORK</string>
+    <string name="txt_cars_network">MY STOCK</string>
+    <string name="txt_flicka">FLICKA</string>
+    <string name="txt_my_customers">MY CUSTOMERS</string>
+    <string name="txt_calander">MY TRANSACTIONS</string>
+    <string name="menu_footer_text">You are signed in as\n\n%1$s</string>
+    <string name="txt_cars">Cars</string>
+    <string name="size_8">8</string>
+    <string name="size_9">9</string>
+    <string name="size_11">11</string>
+    <string name="size_12">12</string>
+    <string name="size_14">14</string>
+    <string name="size_5">0</string>
+    <string name="size_10">0</string>
+    <string name="txt_start_your_search">Start Your Search</string>
+
+    <!-- Search Filter -->
+    <string name="filter_keyword">Keyword</string>
+    <string name="filter_make">Make</string>
+    <string name="filter_year">Year</string>
+    <string name="filter_tranmission">Tranmission</string>
+    <string name="filter_color">Colour</string>
+    <string name="filter_body_type">Body Type</string>
+    <string name="filter_price">Price</string>
+    <string name="filter_kilometers">Kilometers</string>
+    <string name="filter_location">Location</string>
+    <string name="filter_postcode">Postcode</string>
+    <string name="filter_distance">Distance(km)</string>
+    <string name="filter_drive_type">Drive Type</string>
+    <string name="filter_fuel_type">Fuel Type</string>
+    <string name="filter_seats">Seats</string>
+    <string name="txt_badge">Badge</string>
+    <string name="txt_series">Series</string>
+    <string name="txt_model">Model</string>
+    <string name="filter_rego_or_vin">Rego or VIN</string>
+    <string name="filter_adtype">AdType</string>
+    <string name="filter_certified">Certified/Approved</string>
+    <string name="filter_only_show">Only Show Cars With</string>
+    <string name="msg_keyword_required">Please enter keyword</string>
+    <string name="msg_sign_out">Are you sure you want to sign out?</string>
+    <string name="txt_yes">Yes</string>
+    <string name="txt_no">No</string>
+    <string name="txt_set_search">Set a Search</string>
+    <string name="txt_manage_current">Manage Current</string>
+    <string name="txt_search">Search</string>
+    <string name="txt_search_place">Please enter your place</string>
+    <string name="txt_set_forget_now">Set &amp; Forget Now</string>
+    <string name="txt_loren">Loren</string>
+    <string name="txt_customer_record">Customer Record</string>
+    <string name="txt_filter">Filter Data</string>
+    <string name="txt_view_by_set_forget">View by: Set &amp; Forget</string>
+    <string name="txt_view_by_customers">View by: Customers</string>
+    <string name="txt_from">From</string>
+    <string name="txt_to">To</string>
+    <string name="txt_filter_price_min">(Min)</string>
+    <string name="txt_filter_price_max">(Max)</string>
+    <string name="txt_published_stock">Published Stock</string>
+    <string name="txt_add_stock">Add Stock</string>
+    <string name="txt_add_stock_by_vin">Add Stock By VIN</string>
+    <string name="txt_iput_vin_to_search">Input VIN to search</string>
+    <string name="txt_invite_to_network">Add Dealer</string>
+    <string name="txt_calculating">Calculating...</string>
+
+    <!-- Invite dealer -->
+    <string name="invite_dealer_header">CarZapp rewards Dealers who refer new Dealers to the app by providing subscription discounts. To invite a dealer please send an email or SMS from this page</string>
+    <string name="txt_subject_invite">[CARZAPP] Invitation from %1$s</string>
+    <string name="txt_dear_customer">Dear, %1$s\n</string>
+    <string name="invite_dealer_body">        You have been invited by %1$s to join the CarZapp dealer network.&lt;br/>&lt;br/>
+        CarZapp is the No 1 App for Car Dealers with a fast growing dealer network with thousands of cars to buy and sell at wholesale prices.&lt;br/>&lt;br/>
+        As a dealer on the CarZapp network, you will be able to grow your network enabling you to share your inventory with each other, as well as, buy, sell at wholesale prices.&lt;br/>&lt;br/>
+        CarZapp is for licensed dealers only. By joining CarZapp, you will enjoy many features like real-time instant chat and Flicka, and be able to move cars fast.&lt;br/>&lt;br/>
+        Please download the app by clicking on one of these links to proceed&lt;br/>
+        iOS - &lt;a href="http://carzapp.com.au/">http://carzapp.com.au/&lt;/a>&lt;br/>
+        Android - &lt;a href="http://carzapp.com.au/">http://carzapp.com.au/&lt;/a>&lt;br/>&lt;br/>         
+        Regards,&lt;br/>
+        %1$s.</string>
+    <string name="invite_dealer_body_email_message">        You have been invited by %1$s to join the CarZapp dealer network.\n
+        CarZapp is the No 1 App for Car Dealers with a fast growing dealer network with thousands of cars to buy and sell at wholesale prices.\n
+        As a dealer on the CarZapp network, you will be able to grow your network enabling you to share your inventory with each other, as well as, buy, sell at wholesale prices.\n
+        CarZapp is for licensed dealers only. By joining CarZapp, you will enjoy many features like real-time instant chat and Flicka, and be able to move cars fast.\n
+        Please download the app by clicking on one of these links to proceed\n\n
+        iOS - http://carzapp.com.au/\n\n
+        Android - http://carzapp.com.au/\n         
+        Regards,\n\n
+        %1$s.</string>
+    <string name="invite_dealer_body_sms_message">		You have been invited by %1$s to join the CarZapp dealer network. CarZapp is the No 1 App for Car  Dealers with a fast growing dealer network with thousands of cars to buy and sell at wholesale prices.\n\n
+		CarZapp is for licensed dealers only allowing you to grow your network and enabling you to share your inventory with others, as well as, buy, sell at wholesale prices and to move cars fast.  Please download the app :\n\n
+		Ios - http://carzapp.com.au/\n\n
+		Android - http://carzapp.com.au/\n\n
+		Regards %1$s</string>
+    <string name="invite_dealer_body_sms_message_new">		You have been invited by %1$s to join the CarZapp dealer network. It\'s the No 1 App for licensed dealers to buy and sell at wholesale prices and move cars fast.  Please download the app :\n\n
+		Ios - http://carzapp.com.au/\n\n
+		Android - http://carzapp.com.au/\n\n
+		Regards %1$s</string>
+    <string name="invite_dealer_body2">&lt;p>&lt;font color=\'#247bbe\'>&lt;a href=\'http://www.CarZapp.com.au/Register\'>www.CarZapp.com.au/Register&lt;/a>&lt;/font>&lt;br/>&lt;font color=\'#000000\'>(Referral code is %1$s)&lt;/font>&lt;/p>&lt;font color=\'#000000\'>Other links:&lt;/font>&lt;br/>&lt;font color=\'#247bbe\'>&lt;a href=\'http://www.CarZapp.com.au/about\'>www.CarZapp.com.au/about&lt;/a>&lt;br/>&lt;a href=\'http://www.CarZapp.com.au/testimonials\'>www.CarZapp.com.au/testimonials&lt;/a>&lt;/font></string>
+    <string name="invite_dealer_footer">Successful Referrals: %1$s = $%2$s rewarded</string>
+    <string name="invite_dealder_body_sms">Hi, I\'m using \'CarZapp\' and would like to invite you to join the movement, they\'re bringing back wholesale.\n\nhttps://www.appstore.com.au/CarZapp\n\nPlease use referral code: %1$s</string>
+    <string name="txt_photo_or_video">Photo &amp; Video</string>
+    <string name="txt_retrieve_from_camera">Retrieve from Camera Roll. Please Add at least 1 Photo</string>
+    <string name="txt_enter_some_comments">Enter some comments about your car...</string>
+    <string name="txt_publish_now">Publish Now!</string>
+    <string name="txt_buying">Cars I\'m Buying</string>
+    <string name="txt_selling">Cars I\'m Selling</string>
+    <string name="txt_buying_transaction">Buying</string>
+    <string name="txt_selling_transaction">Selling</string>
+    <string name="txt_history">History</string>
+    <string name="txt_send_message">Send Message</string>
+    <string name="txt_write_message">Write a message</string>
+    <string name="txt_delears_my_network">$%1$s Dealers in My Network</string>
+    <string name="txt_view_all">Request</string>
+    <string name="txt_view_inventory">View inventory from selected</string>
+    <string name="txt_view_dealer_stock">View Dealer Stock(%1$s)</string>
+    <string name="txt_notes">Notes</string>
+    <string name="txt_app_chat_history">App Chat History</string>
+    <string name="txt_delete_car_transaction">Delete</string>
+    <string name="txt_my_network_manage">My Network - Manage</string>
+    <string name="txt_my_network_stock">My Network Stocks</string>
+    <string name="txt_any_distance">Any Distance</string>
+    <string name="txt_any_postcode">Any Postcode</string>
+    <string name="txt_welcome_back">Welcome back, %1$s</string>
+    <string name="txt_follow">You followed</string>
+    <string name="txt_unfollow">You unfollowed</string>
+    <string name="txt_no_data">No data loaded</string>
+    <string name="txt_no_item_select">No items selected</string>
+    <string name="txt_no_comments">No comments</string>
+    <string name="txt_sort">Sort Data</string>
+    <string name="txt_ok">Ok</string>
+    <string name="txt_ok_cap">OK</string>
+    <string name="txt_cancel">Cancel</string>
+    <string name="txt_"></string>
+    <string name="txt_sort_fetures">Features</string>
+    <string name="txt_sort_price_desc">Price (high to low)</string>
+    <string name="txt_sort_price_asc">Price (low to high)</string>
+    <string name="txt_sort_kms_desc">Kms (high to low)</string>
+    <string name="txt_sort_kms_asc">Kms (low to high)</string>
+    <string name="txt_sort_year_desc">Year (high to low)</string>
+    <string name="txt_sort_year_asc">Year (low to high)</string>
+    <string name="txt_sort_last_update">Last Update</string>
+    <string name="txt_sort_make_model_desc">Make-Model (A-Z)</string>
+    <string name="txt_sort_make_model_asc">Make-Model (Z-A)</string>
+    <string name="txt_sort_group_basic_option">Basic option</string>
+    <string name="txt_sort_group_advanced_option">Advanced option</string>
+    <string name="txt_edit_set_forget">Edit Set And Forget</string>
+    <string name="txt_not_set">Not set</string>
+    <string name="txt_input_keyword">Input keyword</string>
+    <string name="txt_fail">Fail</string>
+    <string name="txt_updated">Updated</string>
+    <string name="txt_updating">Updating...</string>
+    <string name="txt_result">%1$s result(s)...</string>
+    <string name="invite_dealer_body_email">&lt;p>&lt;font color=\'#000000\'>Dear sir, &lt;p> 
+You have been invited by &lt;b>%1$s&lt;/> to join my Carzapp network. By accepting my invitation we will start sharing our car inventory. You have the option of sharing inventory via your dealersolutions datafeed as well as manually adding cars. &lt;/p>  &lt;p> To agree, please enter your dealer solutions ID number here &lt;font color=\'#247bbe\'>&lt;a href=\'www.CarZapp.com.au/Register\'>www.CarZapp.com.au/Register&lt;/a>&lt;/font> and click on ACCEPT, to agree to the terms and conditions  of the carzapp inventory sharing network .
+ &lt;/p>&lt;/font>&lt;/p>&lt;font color=\'#000000\'>Thank you!&lt;/font></string>
+    <string name="txt_make">Make</string>
+    <string name="txt_body">Body</string>
+    <string name="txt_manu_year">Year</string>
+    <string name="txt_doors">Door</string>
+    <string name="txt_seats">Seats</string>
+    <string name="txt_body_colour">Body Colour</string>
+    <string name="txt_trim_colour">Trim Colour</string>
+    <string name="txt_gears">Gears</string>
+    <string name="txt_fuel_type">Fuel Type</string>
+    <string name="txt_price">Price</string>
+    <string name="txt_retail">Retail</string>
+    <string name="txt_rego">Rego</string>
+    <string name="txt_odometer">Kilometer</string>
+    <string name="txt_cylinders">Cylinders</string>
+    <string name="txt_engine_capacity">Engine Capacity</string>
+    <string name="txt_vin_number">Vin Number</string>
+    <string name="txt_registration_date">Registration Date</string>
+    <string name="txt_manu_month">Month Made</string>
+    <string name="txt_options">Options</string>
+    <string name="txt_nvic">Nvic</string>
+    <string name="txt_redbookcode">Redbook Code</string>
+    <string name="txt_location">Location</string>
+    <string name="txt_gearbox">Tranmission</string>
+    <string name="txt_engine_number">Engine Number</string>
+    <string name="txt_status">Status</string>
+    <string name="txt_sync">Sync</string>
+    <string name="txt_inventory">Inventory</string>
+    <string name="txt_egc">Egc</string>
+    <string name="txt_drive_away_amount">Drive Away Amount</string>
+    <string name="txt_drive_type">Drive Type</string>
+    <string name="txt_enter_comment">Enter some comments about your car...</string>
+    <string name="txt_enter_notes">Enter some notes about your car...</string>
+    <string name="txt_confirm_ext">Press back again to exit</string>
+    <string name="txt_new_stock_success">Car added successfully</string>
+    <string name="txt_add_stock_normal">Add stock</string>
+    <string name="txt_sort_data">Sort data</string>
+    <string name="txt_other_stock">Other stocks</string>
+    <string name="txt_my_network_normal">My network</string>
+    <string name="txt_email_customer">Email customer</string>
+    <string name="txt_member_id_invalid">Member ID invalid</string>
+    <string name="txt_add_success">Added successfully</string>
+    <string name="txt_updated_success">Updated successfully</string>
+    <string name="txt_remove_success">Removed successfully</string>
+    <string name="txt_delete_success">Deleted successfully</string>
+    <string name="txt_dealer_your_network">%1$s Dealer(s) in your Network</string>
+    <string name="txt_available">Available</string>
+    <string name="txt_sold">Sold</string>
+    <string name="txt_RTV">RTV</string>
+    <string name="txt_change_success">Change successfully</string>
+    <string name="txt_sort_name_dealer_asc">Name Dealer(A-Z)</string>
+    <string name="txt_sort_name_dealer_desc">Name Dealer(Z-A)</string>
+    <string name="txt_sort_size_car_asc">Size Car (low to high)</string>
+    <string name="txt_sort_size_car_desc">Size Car (high to low)</string>
+    <string name="txt_are_you_suare_delete_dealer">Are you sure you want to delete this dealer?</string>
+    <string name="txt_done">Done</string>
+    <string name="txt_any">Any</string>
+    <string name="txt_sort_clir_random">Random</string>
+    <string name="txt_sort_clir_high_price">High price first</string>
+    <string name="txt_sort_clir_low_price">Low price first</string>
+    <string name="txt_sort_clir_largest_dealer">Largest dealer first</string>
+    <string name="txt_sort_clir_new_cars">New cars first</string>
+    <string name="txt_sort_clir_best_value">Best value first</string>
+    <string name="txt_sort_new_stock_first">New stock first</string>
+    <string name="txt_sort_oldest_stock_first">Oldest stock first</string>
+    <string name="txt_filter_by_make">By Make</string>
+    <string name="txt_filter_by_price">By Price range</string>
+    <string name="txt_filter_by_date">By Year range</string>
+    <string name="txt_filter_by_body_type">By Body type</string>
+    <string name="txt_filter_by_km">By KM range</string>
+    <string name="txt_filter_by_fuel_type">By Fuel type</string>
+    <string name="txt_filter_by_new_cars">By New cars only</string>
+    <string name="txt_filter_by_newly_listed">By Newly listed cars only</string>
+    <string name="txt_network_invite_email_sms">Invite by email/SMS</string>
+    <string name="txt_network_add_from_contact">From Contacts</string>
+    <string name="txt_network_add_new1">Add new</string>
+    <string name="txt_network_add_new">Send email invitation</string>
+    <string name="txt_network_add_from_carzapp">Send invitation notification</string>
+    <string name="txt_network_add_from_carzapp_title">Search CarZapp</string>
+    <string name="txt_check_vin_number">VIN number must be 17 characters</string>
+    <string name="txt_please_input_vin_number">Please input VIN number</string>
+    <string name="txt_input_your_vin">Input your VIN</string>
+    <string name="txt_fullname">Full name</string>
+    <string name="txt_phone_number">Phone number</string>
+    <string name="txt_input_fullname">Input name</string>
+    <string name="txt_input_phone_number">Input phone number</string>
+    <string name="txt_cannot_send_network">You cannot add yourself to your network</string>
+    <string name="txt_input_email">Input email</string>
+    <string name="txt_add">Add</string>
+    <string name="txt_edit">Edit</string>
+    <string name="txt_save">Save</string>
+    <string name="txt_saved">Saved</string>
+    <string name="txt_add_customer">Add Customer</string>
+    <string name="txt_edit_customer">Edit Customer</string>
+    <string name="txt_system_contact">System Contact</string>
+    <string name="txt_customer">Customer</string>
+    <string name="txt_shared_n_dealer">Shared %1$s dealer(s) from \"My Network\"</string>
+    <string name="txt_please_choose_series">Please choose model</string>
+    <string name="txt_please_add_customer">Please add customer</string>
+    <string name="txt_buy">Buy</string>
+    <string name="txt_sell">Sell</string>
+    <string name="txt_pending">Pending</string>
+    <string name="txt_accept">Accept</string>
+    <string name="txt_selling_you_sell">You are selling this car for %1$s.\nDo you want to cancel this transaction?</string>
+    <string name="txt_selling_other_buy_accept">%1$s is buying this car from you.\nDo you agree to sell this car?</string>
+    <string name="txt_selling_other_buy_cancel">%1$s is buying this car from you.\nDo you want to cancel this transaction?</string>
+    <string name="txt_buying_you_buy">You are buying this car from %1$s.\nDo you want to cancel this transaction?</string>
+    <string name="txt_buying_other_sell_accept">%1$s is selling this car to you.\nDo you agree to buy this car?</string>
+    <string name="txt_buying_other_sell_cancel">%1$s is selling this car to you.\nDo you want to cancel this transaction?</string>
+    <string name="txt_transfering_you_to">You are transferring this car to %1$s.\nDo you want to cancel this transfer?</string>
+    <string name="txt_transfering_to_you_accept">%1$s is transferring this car to you.\nDo you want to accept this transfer?</string>
+    <string name="txt_transfering_to_you_cancel">%1$s is transferring this car to you.\nDo you want to cancel this transfer?</string>
+    <string name="txt_sell_car">Are you sure you want to sell this car?</string>
+    <string name="txt_buy_car">Are you sure you want to buy this car?</string>
+    <string name="txt_pending_car">This car is temporarily not available to trade</string>
+    <string name="txt_transaction">Transaction</string>
+    <string name="txt_please_add_firsr_dealer">Please add first dealer in \"My Network\"</string>
+    <string name="txt_transacted_successfully">Transacted successfully</string>
+    <string name="txt_cancel_transation_succussfully">Cancelled transaction successfully</string>
+    <string name="txt_car_has_bought">This car has just bought by other dealer. You still can follow it.</string>
+    <string name="txt_select_customer_to">Send Mail Customer(To)</string>
+    <string name="txt_select_customer_bcc">Send Mail Customer(BCC)</string>
+    <string name="txt_send_sms_customer">Send SMS</string>
+    <string name="txt_skip">Skip</string>
+    <string name="txt_share_SMS">SMS Customer</string>
+    <string name="txt_share_email">Email Customer</string>
+    <string name="txt_no_comment">No comment</string>
+    <string name="txt_no_message">No Message</string>
+    <string name="txt_no_note">No note</string>
+    <string name="txt_home">HOME</string>
+    <string name="txt_filter_by_make_title">Filter by Make</string>
+    <string name="txt_filter_by_price_title">Filter by Price range</string>
+    <string name="txt_filter_by_year_title">Filter by Year range</string>
+    <string name="txt_filter_by_body_title">Filter by Body type</string>
+    <string name="txt_filter_by_km_title">Filter by KM range</string>
+    <string name="txt_filter_by_fuel_title">Filter by Fuel type</string>
+    <string name="txt_price_from">Frice from</string>
+    <string name="txt_price_to">Frice to</string>
+    <string name="txt_km_from">Km from</string>
+    <string name="txt_km_to">Km to</string>
+    <string name="txt_year_from">Year from</string>
+    <string name="txt_year_to">Year to</string>
+    <string name="demo_min_label">Start</string>
+    <string name="demo_max_label">End</string>
+    <string name="txt_set_forget_successfully">Set &amp; Forget saved successfully</string>
+    <string name="txt_door">Door</string>
+    <string name="server_registering">Trying (attempt %1$d/%2$d) to register device on CarZapp server.</string>
+    <string name="server_registered">From CarZapp server: successfully added device!</string>
+    <string name="server_register_error">Could not register device on Demo Server after %1$d attempts.</string>
+    <string name="gcm_error">From GCM: error (%1$s).</string>
+    <string name="gcm_recoverable_error">From GCM: recoverable error (%1$s).</string>
+    <string name="gcm_deleted">From GCM: server deleted %1$d pending messages!</string>
+    <string name="push_notification_child_was_scan">Your child %1$s was scanned</string>
+    <string name="txt_send_invite">Send invitation</string>
+    <string name="txt_send_successfully">Sent invitation successfully</string>
+    <string name="txt_input_data_to_search">Input data to search</string>
+    <string name="txt_searching">Searching...</string>
+    <string name="txt_inviting">Inviting&#8230;</string>
+    <string name="txt_invitations">Invitations</string>
+    <string name="txt_sent_invite_sucessfully">An invite to join your network have been sent</string>
+    <string name="txt_you_sure_cancel_invitation">Are you sure you want to cancel this invitation?</string>
+    <string name="txt_you_sure_cancel_choose_location">Drag marker or Tap on map to select your location</string>
+    <string name="txt_saving">Saving....</string>
+    <string name="txt_dealer_name_email">Dealer(name, email)</string>
+    <string name="txt_block_remove">Block/Remove</string>
+    <string name="txt_accepting_invitation">Accepting invitation&#8230;</string>
+    <string name="txt_canceling_invitation">Canceling invitation&#8230;</string>
+    <string name="txt_canceling_sent">Canceling sent&#8230;</string>
+    <string name="txt_first_name">First Name</string>
+    <string name="txt_last_name">Last Name</string>
+    <string name="txt_email_1">(Email)</string>
+    <string name="txt_mobile_1">(Mobile)</string>
+    <string name="txt_input_first_name">Input first name</string>
+    <string name="txt_input_last_name">Input last name</string>
+    <string name="txt_transfering">Transferring</string>
+    <string name="txt_transfered">Transferred</string>
+    <string name="txt_title_transfering">Transfer to %1$s</string>
+    <string name="txt_title_transfered">Transfer from %1$s</string>
+    <string name="txt_do_you_assign1">Do you want to transfer this car for %1$s?</string>
+    <string name="txt_request_sent">A request sent.</string>
+    <string name="txt_canceling_transfer">Canceling transfer&#8230;</string>
+    <string name="txt_cancel_transfer_succussfully">Cancelled transfer successfully</string>
+    <string name="txt_transfer_succussfully">Transfer successfully</string>
+    <string name="txt_dealer_in_company">My Company</string>
+    <string name="txt_purge_delete_message">Purge/Delete Zappchat messages</string>
+    <string name="txt_time_purge_delete_message">Choose time to delete old messages of Zappchat</string>
+    <string name="txt_terms">I agree to the &lt;font color=\'#247bbe\'>&lt;a href=\'http://198.38.92.58/terms.html\'>Carzapp Terms and Conditions&lt;/a>&lt;/font></string>
+    <string name="txt_must_accept_term">You must accept our Terms and Conditions!</string>
+    <string name="txt_username_use">This Username is currently in use.</string>
+    <string name="txt_email_use">This Email already exists.</string>
+    <string name="txt_getting_data_by_vins">Getting data by VIN number</string>
+    <string name="txt_not_result_found">Not results found.</string>
+    <string name="txt_please_search_by_vin">Please search by VIN</string>
+    <string name="txt_not_get_location">Not get current location. Please re-check your internet or enable GPS...</string>
+    <string name="txt_distance">Distance</string>
+    <string name="txt_result_distance">Distance from here to this car: %1$s kms</string>
+    <string name="txt_about_us">CarZapp exists because a Car Dealer identified the opportunity for a contemporary approach to wholesaling across the automotive industry. Over the past two years, the app has been developed by a close knit group of professionals sharing more than 50 years of automotive and IT industry experience. \n\n50 Years of Shared Industry Experience, from 3 three founders, has guided a team of developers and designers to produce this App. It is designed with multiple options to input data, as well as many options to communicate openly between users, in a hassle-free way.  Carzapp runs on Apple, Android and Windows mobile phones and on desktop computers.\n\nCarZapp has been developed primarily by Australian Car Dealers for Australian Car Dealers in the interest of mutually effective way to buy and sell vehicles. The idea is universal, and is applicable in all countries. It will be made available in other countries in the future.\n\nBeing in the industry ourselves, we understand the continuous and ever-increasing difficulty of sourcing quality stock to meet consumer’s demands.\n\nPhilosophy\n\nThe CarZapp philosophy is to keep the wholesale car business alive and well .\n\nMission\n\nThe CarZapp mission is to empower dealers to grow their network and business with an easy to use digital platform.\n\nQuick Features\n\n    +	Carzapp enables Dealers to share inventory and connect with each other, within a Dealer exclusive platform.\n    + A full-featured platform with easy communication points so whether you are buying or selling, Carzapp is a must have.\n    +	Manage Customer requests and share these with fellow dealers, to accelerate deals.\n    +Move cars between dealers fast, as buy and sell opportunities appear across the network in real time.\n\nEnjoy using it !  </string>
+    <string name="txt_about_us_1">About Us</string>
+    <string name="txt_place_comercial">Place commercial here</string>
+    <string name="txt_count_character">%1$s/200</string>
+    <string name="txt_send_invitation_to">Send email invitation (To)</string>
+    <string name="txt_send_invitation_bcc">Select additional Dealers (Bcc)</string>
+    <string name="txt_next">Next</string>
+    <string name="speech_prompt">Say something&#8230;</string>
+    <string name="speech_not_supported">Sorry! Your device doesn\'t support speech input</string>
+    <string name="tap_on_mic">Tap on mic to speak</string>
+
+    <string-array name="arr_choose_add_customer">
+        <item>From contact list</item>
+        <item>From keypad</item>
+    </string-array>
+    <string-array name="arr_menu_3_string">
+        <item>View &amp; Edit</item>
+        <item>Delete</item>
+        <item>Cancel</item>
+    </string-array>
+    <string-array name="arr_menu_3_icon">
+        <item>ic_edit_menu</item>
+        <item>ic_delete</item>
+        <item>ic_cancel</item>
+    </string-array>
+    <string-array name="arr_menu_2_string">
+        <item>View</item>
+        <item>Cancel</item>
+    </string-array>
+    <string-array name="arr_menu_2_icon">
+        <item>ic_open</item>
+        <item>ic_cancel</item>
+    </string-array>
+    <string-array name="arr_choose_photo">
+        <item>Choose from Gallery</item>
+        <item>Take photo</item>
+    </string-array>
+    <string-array name="arr_menu_comment">
+        <item>Transfer</item>
+        <item>View</item>
+        <item>Delete</item>
+        <item>Cancel</item>
+    </string-array>
+    <string-array name="arr_menu_notifi_car_i_found">
+        <item>View Set Forget</item>
+        <item>View Car</item>
+        <item>Delete</item>
+        <item>Cancel</item>
+    </string-array>
+    <string-array name="arr_menu_notifi_found_my_car">
+        <item>View User Infor</item>
+        <item>View Car</item>
+        <item>Delete</item>
+        <item>Cancel</item>
+    </string-array>
+    <string-array name="arr_menu_ic_comment">
+        <item>ic_view_setforget</item>
+        <item>ic_open</item>
+        <item>ic_delete</item>
+        <item>ic_cancel</item>
+    </string-array>
+    <string-array name="arr_menu_ic_foundmycar">
+        <item>ic_view_user</item>
+        <item>ic_open</item>
+        <item>ic_delete</item>
+        <item>ic_cancel</item>
+    </string-array>
+
+    <string name="txt_my_profile">My Profile</string>
+    <string name="txt_general">General</string>
+    <string name="txt_notification">Notifications</string>
+    <string name="txt_other_setting">Other Settings</string>
+    <string name="txt_flicarr">Flicka</string>
+    <string name="txt_transfer">Transfer</string>
+    <string name="txt_carzapp">CarZapp Number</string>
+    <string name="txt_dealer_lincense">Dealer License Number</string>
+    <string name="txt_dealer_company">Dealer Company Number</string>
+    <string name="txt_contact_name">Contact Name</string>
+    <string name="txt_mobile">Mobile</string>
+    <string name="txt_username">Username</string>
+    <string name="txt_password_st">Password</string>
+    <string name="txt_datafeed">Datafeed references</string>
+    <string name="txt_solution">Dealer Solutions Number</string>
+    <string name="txt_easycars">EasyCars Number</string>
+    <string name="txt_company_email">Company Email</string>
+    <string name="txt_company_name">Company Name</string>
+    <string name="txt_address">Address</string>
+    <string name="txt_telephone">Telephone</string>
+    <string name="txt_tel">Tel</string>
+    <string name="txt_fax">Fax</string>
+    <string name="txt_abn">ABN</string>
+    <string name="txt_acn">ACN</string>
+    <string name="txt_dun">DUN</string>
+    <string name="txt_statis">Statistics</string>
+    <string name="txt_cars_1">Cars</string>
+    <string name="txt_total_number">Total number of cars</string>
+    <string name="txt_deals">Deals</string>
+    <string name="txt_total_done">Total number of deals done</string>
+    <string name="txt_tatol_dow_in">Total value of deals</string>
+    <string name="txt_my_ratings">My ratings received</string>
+    <string name="txt_ratinggive">My ratings given</string>
+    <string name="txt_car_for_sale">1. Cars For Sale</string>
+    <string name="txt_template">2. Email template</string>
+    <string name="txt_notifications"> Notification settings</string>
+    <string name="txt_notifications_2">2. I have a match found in SetnForget for other dealers listings.</string>
+    <string name="txt_notifications_1">1. I have a match found in SetnForget for my listing.</string>
+    <string name="txt_notifications_3">3. A new chat message arrives in my chat.</string>
+    <string name="txt_notifications_4">4. A new dealer has joined my network.</string>
+    <string name="txt_notifications_5">5. New cars have been added to my network.</string>
+    <string name="txt_flicarr_sort">Set Flicarr Sort:</string>
+    <string name="txt_higt_first">1. High price first</string>
+    <string name="txt_low_price">2. Low price first</string>
+    <string name="txt_largest">3. Largest dealer first</string>
+    <string name="txt_new_cars">4. New cars first</string>
+    <string name="txt_best_value">5. Best value first</string>
+    <string name="txt_flicarr_limits">Set Flicarr limits :</string>
+    <string name="txt_by_make">1. By Make - multi choice is possible</string>
+    <string name="txt_by_price">2. By Price range</string>
+    <string name="txt_by_date">3. By Date range</string>
+    <string name="txt_by_new_cars">4. By New cars only</string>
+    <string name="txt_bt_newly">5. By Newly listed cars only</string>
+    <string name="txt_title_notifications">Notifications</string>
+    <string name="txt_title_notifications_set_forget">Set &amp; Forget Notifications</string>
+    <string name="txt_title_flicarr">Flicarr</string>
+    <string name="txt_title_general">General</string>
+    <string name="txt_title_profile">My Profile</string>
+    <string name="txt_flicarr_number">Flicarr Number </string>
+    <string name="txt_asign">Assign</string>
+    <string name="txt_location_add">Metrogorodok District, Moscow, Russia</string>
+    <string name="txt_active_code">Activation Code</string>
+    <string name="txt_type_active_code">Input your code </string>
+    <string name="txt_active">Activate</string>
+    <string name="txt_incorrect_active_code">Incorrect Activate Code</string>
+    <string name="txt_used_active_code">Your Activate Code is already in used</string>
+    <string name="txt_try_again">Try again</string>
+    <string name="txt_close">Close</string>
+    <string name="txt_activating">Activating&#8230;</string>
+    <string name="txt_checking">Checking&#8230;</string>
+    <string name="txt_check_fail">Checking failure!</string>
+    <string name="txt_activate_fail">Activation failure!</string>
+    <string name="txt_check_try_again_message">Please check your network connection and try again.</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="today">Today</string>
+    <string name="wrong_code_length">Please input 6 characters Activate Code</string>
+    <string name="term_condition">Terms and Conditions</string>
+    <string name="proceed">Proceed</string>
+    <string name="back">Back</string>
+    <string name="priciple">Principle of Dealership</string>
+    <string name="employee">I\'m a employee</string>
+    <string name="data_source">Data Source</string>
+    <string name="email_in_used">Your email is already in used.</string>
+    <string name="name_in_used">Your username is already in used</string>
+    <string name="select_user_type">Please select an user type</string>
+    <string name="principle_carzapp_code">Principle Carzapp Code</string>
+    <string name="check">Check</string>
+    <string name="input_carzapp_code">Please input Principle Carzapp Code and check again</string>
+    <string name="wrong_carzapp_code">Your Principle Carzapp Code is invalid</string>
+    <string name="your_carzapp_code">Your Carzapp Code is %1$s</string>
+    <string name="thanks_register">Thank you for your registration !</string>
+    <string name="choose_datasource">Please choose datasources</string>
+    <string name="txt_yourpassword">Your Password</string>
+    <string name="txt_new_password">New password</string>
+    <string name="txt_submit">Submit</string>
+    <string name="txt_update_profile_success">Update My profile successfully</string>
+    <string name="txt_car_sold">This car was sold to another dealer</string>
+    <string name="txt_title_step_second">1. For a Single Users License : </string>
+    <string name="txt_step_second_content_1">You will need your Dealer license Number to continue.</string>
+    <string name="txt_title_step_second_2">2. For a Multiple User License :</string>
+    <string name="txt_step_second_content_2_1">   - If you are the principle of your car dealership, you will need your Dealer License Number to continue.</string>
+    <string name="txt_step_second_content_2_2">   - If you are not the  Dealer Principle,  you will need the principle to register first and then provide you with the Carzapp number they received from us.</string>
+    <string name="txt_step_second_content_bottom">If unsure, select  single User License  and use this temporary number : 999999, as your Dealer License  Number, we will respond and assist you further.</string>
+    <string name="txt_requests_sent">Requests Sent</string>
+    <string name="txt_requests_received">Requests Received</string>
+    <string name="txt_network_requests">Network Requests</string>
+    <string name="txt_old_password">Current password</string>
+    <string name="txt_confirm_new_password">Confirm new password</string>
+    <string name="txt_please_enter_password_current">Please enter current password </string>
+    <string name="txt_please_enter_confirm_pass">Please enter confirm password</string>
+    <string name="txt_please_enter_new_pass">Please enter new password</string>
+    <string name="msg_confirm_password_not_match">Confirm password does not match</string>
+    <string name="change_pass_success">Change password success</string>
+    <string name="change_pass_incorrect">Current password incorrect</string>
+    <string name="txt_appraisal">Appraisal</string>
+    <string name="txt_retail_comments">Retail comments</string>
+    <string name="txt_cars_i_found">Car I found</string>
+    <string name="txt_found_my_cars">Found my car</string>
+    <string name="txt_no_email">No email address available</string>
+    <string name="txt_no_phone">No phone number available</string>
+    <string name="txt_item_other_notifi_1">Notify me when a new dealer has joined My Network.</string>
+    <string name="txt_item_other_notifi_2">Notify me when a car has been added to My Stock.</string>
+    <string name="txt_item_other_notifi_3">Notify me when a car has been added to My Networks stock.</string>
+    <string name="txt_item_other_notifi_4">Notify me when one of the cars i am following has a feature updated, e.g price, description change.</string>
+    <string name="txt_item_other_notifi_5">Notify me when someone starts following one of my cars.</string>
+
+</resources>

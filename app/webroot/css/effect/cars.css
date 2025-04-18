@@ -1,0 +1,247 @@
+/*outline*/
+a, a:hover, a:focus, a:active,
+button, button:hover, button:focus, button:active,
+select, select:hover, select:focus, select:active,
+input:hover, input:focus, input:active {
+    outline: 0px;
+}
+/*color*/
+.color-site {
+    /*here*/
+}
+.color-black {
+    color: #000;
+}
+.color-white {
+    color: #fff;
+}
+/*margin*/
+.mg-top-8 {
+    margin-top: 8px;
+}
+.mg-top-10 {
+    margin-top: 30px;
+}
+.mg-top-30 {
+    margin-top: 30px;
+}
+.mg-top-35 {
+    margin-top: 35px;
+}
+.mg-top-40 {
+    margin-top: 40px;
+}
+.mg-top-50 {
+    margin-top: 50px;
+}
+.mg-top-ne30 {
+    margin-top: -30px;
+}
+.mg-bottom-15 {
+    margin-bottom: 15px;
+}
+.mg-bottom-20 {
+    margin-bottom: 20px;
+}
+.mg-bottom-50 {
+    margin-bottom: 50px;
+}
+.mg-left-50 {
+    margin-left: 50px;
+}
+.mg-right-8 {
+    margin-right: 8px;
+}
+.mg-right-50 {
+    margin-right: 50px;
+}
+.mg-left-65 {
+    margin-left: 65px;
+}
+.no-mg-top {
+    margin-top: 0px;
+}
+.no-mg-bottom {
+    margin-bottom: 0px;
+}
+.no-mg-left {
+    margin-left: 0px;
+}
+.no-mg-right {
+    margin-right: 0px;
+}
+.no-mg {
+    margin: 0px;
+}
+/*padding*/
+.pd-top-10 {
+    padding-top: 10px;
+}
+.no-padding {
+    padding: 0px;
+}
+/*position*/
+.pos-rel {
+    position: relative;
+}
+.pos-abs {
+    position: absolute;
+}
+.pos-fixed {
+    position: fixed;
+}
+/*height*/
+.height-40 {
+    height: 40px;
+}
+
+
+/*button*/
+.btn-kb-02 {
+    border: 0px none;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px 25px;
+    font-weight: 600;
+    background-color: rgb(26, 178, 231);
+    font-size: 14px;
+}
+.btn-kb-02:hover, .btn-kb-02:focus {
+    color: #fff;
+    background-color: rgb(20, 125, 162);
+}
+.btn-kb-01 {
+    padding: 0px !important;
+    border-color: transparent;
+    background-color: transparent;
+}
+.btn-kb-01:active {
+    top: 1px !important;
+    position: absolute !important;
+}
+.btn-kb-01 > img {
+    width: 100%;
+}
+.btn-kb-01 .ic-normal {
+    display: block;
+}
+.btn-kb-01:hover .ic-normal {
+    display: none;
+}
+.btn-kb-01 .ic-hover {
+    display: none;
+}
+.btn-kb-01:hover .ic-hover {
+    display: block;
+}
+.btn-kb-01.btn-app {
+    width: 140px;
+}
+
+
+/*image*/
+.img-cover {
+    object-fit: cover;
+}
+/*background cover*/
+.bg-cover {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%);
+}
+/*show - hide*/
+.hidden {
+    display: none;
+}
+.show-bl {
+    display: block;
+}
+.show-inbl {
+    display: inline-block;
+}
+.show-inl {
+    display: inline;
+}
+/*effect*/
+.kb-effect-display {
+    opacity: 0;
+    transition: linear 1s all;
+}
+.kb-effect-display[data-display="display-from-left"] {
+    transform: translate(-40px, 0px);
+}
+.kb-effect-display[data-display="display-from-right"] {
+    transform: translate(40px, 0px);
+}
+.kb-effect-display[data-display="display-from-top"] {
+    transform: translate(0px, -40px);
+}
+.kb-effect-display[data-display="display-from-bottom"] {
+    transform: translate(0px, 40px);
+}
+.kb-effect-display.run {
+    transform: translate(0px, 0px);
+    opacity: 1;
+}
+@media only screen and (max-width: 768px) {
+    /*margin*/
+    .mg-top-10-768 {
+        margin-top: 10px;
+    }
+    .mg-top-30-768 {
+        margin-top: 30px;
+    }
+    .mg-top-35-768 {
+        margin-top: 35px;
+    }
+    .mg-top-50-768 {
+        margin-top: 50px;
+    }
+    .mg-bottom-20-768 {
+        margin-bottom: 20px;
+    }
+    .mg-left-50-768 {
+        margin-left: 50px;
+    }
+    .mg-left-65-768 {
+        margin-left: 65px;
+    }
+    .mg-right-50-768 {
+        margin-right: 50px;
+    }
+    .no-margin-768 {
+        margin: 0px;
+    }
+    /*padding*/
+    .no-padding-768 {
+        padding: 0px;
+    }
+    /*show - hide*/
+    .hidden-768 {
+        display: none;
+    }
+    .show-bl-768 {
+        display: block;
+    }
+    .show-inbl-768 {
+        display: inline-block;
+    }
+    .show-inl-768 {
+        display: inline;
+    }
+}
+@media only screen and (max-width: 640px) {
+    
+}
+@media only screen and (max-width: 480px) {
+    
+}
+@media only screen and (max-width: 360px) {
+    
+}
+@media only screen and (max-width: 320px) {
+    
+}
